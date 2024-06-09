@@ -1,7 +1,7 @@
 # P0W3R$C4N
 ### The not-so lightweight Powershell version of Nmap
 #### (*This tool is still in development*)
-#### Requires powershell 7+ due to "PSParallel" use (not compatible with ISE
+#### Requires powershell 7+ due to "PSParallel" use (not compatible with ISE)
 #### The three initial capabilities provide:
 > 1. TCP Scanning
 > 2. UDP Scanning
