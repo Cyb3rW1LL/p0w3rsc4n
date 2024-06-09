@@ -43,6 +43,8 @@ function UDP-SCAN {
     return "Closed/Filtered"
 }
 
+# Change these to incoroporate custom known ports and adjust for CIDR input to scan ranges
+# Not just a current targetIP
 $portRange = 1..1000
 $targetIP = "127.0.0.1"
 
