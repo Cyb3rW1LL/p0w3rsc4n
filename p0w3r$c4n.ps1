@@ -7,6 +7,9 @@
 # Install-Module PSParallel
 Import-Module PSParallel
 
+
+'''
+#MOVE THIS INTO TCP-SCAN, CAN. CAN ACCOMPLISH BOTH AT SAME TIME!!!!
 # Function to send a TCP SYN packet and get the TTL value
 function GET-TTL {
     param (
@@ -22,12 +25,19 @@ function GET-TTL {
         # Get the TTL value
         $ttl = $tcpClient.Client.Ttl
         return $ttl
+	if ($ttl -ge 128) {
+          return "Windows"
+    } elseif ($ttl -le 64) {
+        return "Linux/Unix"
+    } else {
+        return "Unknown"
+    }
     } catch {
         Write-Host "Failed to connect to $Target on port $Port"
         return $null
     }
 }
-
+'''
 # Standard Tcptarget scan
 # Will either connect or potentially be filtered
 function TCP-SCAN {
