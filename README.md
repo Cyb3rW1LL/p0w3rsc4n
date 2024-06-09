@@ -1,7 +1,14 @@
 # P0W3R$C4N
-### The incredibly lightweight Powershell version of Nmap
-#### This tool is still in development but provides (2) initial capabilities:
-> 1. Known Port Scanning
-> 2. OS fingerprinting based on ttl
-## There will be more functionality added as the tool grows
-## So stay tuned for updates!
+### The not-so lightweight Powershell version of Nmap
+#### (*This tool is still in development*)
+#### Requires powershell 7+ due to "PSParallel" use (not compatible with ISE
+#### The three initial capabilities provide:
+> 1. TCP Scanning
+> 2. UDP Scanning
+> 3. OS fingerprinting based on ttl
+
+## Alternativly, you could just use 'Portqryv2.exe'!
+| What | Where |
+|---|---|
+| Download | https://www.microsoft.com/en-us/download/details.aspx?id=17148 |
+| Docs | https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/portqry-command-line-port-scanner-v2 |
