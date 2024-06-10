@@ -6,7 +6,10 @@
 > 1. Batch job TCP Scanning
 > 2. Batch job UDP Scanning
 > 3. OS fingerprinting based on ttl
-
+## My inspiration and intial reference for this project:
+| SANS | Link |
+|--- | --- |
+| Article | https://isc.sans.edu/diary/Port+Scanning+in+Powershell+Redux+Speeding+Up+the+Results+challenge+accepted/29324 |
 ## Alternativly, you could just use 'PortQry.exe'!
 | What | Where |
 |---|---|
