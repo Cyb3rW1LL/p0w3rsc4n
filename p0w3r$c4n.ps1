@@ -3,7 +3,7 @@
 # Created: 6/9/2024
 # Revised: 
 
-# Set-ExecutionPolicy Bypass/RemoreSigned
+# Set-ExecutionPolicy Bypass/RemoteSigned
 # Install-Module PSParallel
 Import-Module PSParallel
 
