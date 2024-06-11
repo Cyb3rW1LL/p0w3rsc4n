@@ -1,7 +1,6 @@
 # P0w3r$c4n.ps1
 # Author: Cyb3W1LL
-# Created: 6/9/2024
-# Revised: 
+ 
 
 # Set-ExecutionPolicy Bypass/RemoteSigned
 # Install-Module PSParallel
