@@ -58,7 +58,7 @@ function UDP-SCAN {
     param ([string]$targetIP, [int]$targetPort)
     $udpscan = New-Object System.Net.Sockets.UdpClient
     try {
-        $udpscan.Connect($targetIP, $targetPort)
+        $udpscan.BeginConnect($targetIP, $targetPort)
         # Open a Listener socket on the localhost for "Any" UDP response on port 0
         $udplistener = New-Object System.Net.IPEndPoint([System.Net.IPAddress]::Any, 0)
         # Send empty byte array[] to the target to illicit response
