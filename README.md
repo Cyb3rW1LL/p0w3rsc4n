@@ -10,7 +10,7 @@
 | SANS | Link |
 |--- | --- |
 | Article | https://isc.sans.edu/diary/Port+Scanning+in+Powershell+Redux+Speeding+Up+the+Results+challenge+accepted/29324 |
-## Alternativly, you could just use 'PortQry.exe'!
+## Alternatively, you could just use 'PortQry.exe'!
 | What | Where |
 |---|---|
 | Download | https://www.microsoft.com/en-us/download/details.aspx?id=17148 |
