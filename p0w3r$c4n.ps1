@@ -1,5 +1,5 @@
 # P0w3r$c4n.ps1
-# Author: Cyb3W1LL
+# Author: Cyb3rW1LL
  
 
 # Set-ExecutionPolicy Bypass/RemoteSigned
