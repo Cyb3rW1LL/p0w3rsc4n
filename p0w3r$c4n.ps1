@@ -6,9 +6,6 @@
 # Install-Module PSParallel
 Import-Module PSParallel
 
-
-'''
-#MOVE THIS INTO TCP-SCAN, CAN ACCOMPLISH BOTH AT SAME TIME!!!!
 # Function to send a TCP SYN packet and get the TTL value
 function GET-TTL {
     param (
@@ -36,7 +33,7 @@ function GET-TTL {
         return $null
     }
 }
-'''
+
 # Standard Tcptarget scan
 # Will either connect or potentially be filtered
 function TCP-SCAN {
