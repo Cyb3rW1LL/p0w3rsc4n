@@ -25,6 +25,8 @@ function GET-TTL {
           return "Windows"
     } elseif ($ttl -le 64) {
         return "Linux/Unix"
+    } elseif ($ttl -eq 255) {
+    	return "Cisco Device"
     } else {
         return "Unknown"
     }
